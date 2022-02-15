@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="CPPCode.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\x64\Release\myPython.py">
+    <None Include="..\x64\Release\PythonCode.py">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>

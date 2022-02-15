@@ -141,10 +141,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClCompile Include="CPPCode.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\x64\Release\myPython.py" />
+    <None Include="..\x64\Release\PythonCode.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
