@@ -24,6 +24,7 @@
     <ProjectGuid>{735fb076-73b0-4db2-8a65-d5bac16202e5}</ProjectGuid>
     <RootNamespace>CS210Setup</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Project 3</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -141,10 +142,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="CPPCode.cpp" />
+    <Text Include="CS210_Project_Three_Input_File.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\x64\Release\PythonCode.py" />
+    <ClCompile Include="CPP Project 3 Code.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\x64\Release\Python Code Project 3.py" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

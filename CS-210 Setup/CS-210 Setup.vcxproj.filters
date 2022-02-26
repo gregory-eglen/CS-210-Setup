@@ -15,12 +15,17 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CPPCode.cpp">
+    <Text Include="CS210_Project_Three_Input_File.txt">
+      <Filter>Source Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CPP Project 3 Code.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\x64\Release\PythonCode.py">
+    <None Include="..\x64\Release\Python Code Project 3.py">
       <Filter>Source Files</Filter>
     </None>
   </ItemGroup>
